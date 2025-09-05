@@ -19,7 +19,7 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
 
 */
 
-package leetcode.example;
+package leetcode.example.arrays;
 
 
 import java.util.Arrays;
@@ -34,7 +34,7 @@ class BuildArrayFromPermutation {
         System.out.println("Answer : "+Arrays.toString(ans));
     }
 
-    // logic method
+    // Logic Method
     public int[] buildArray(int[] nums) {
         int [] ans = new int[nums.length];
         for (int i =0; i<nums.length; i++){
