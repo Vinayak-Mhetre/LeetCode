@@ -42,4 +42,5 @@ class BuildArrayFromPermutation {
         }
         return ans;
     }
+
 }
